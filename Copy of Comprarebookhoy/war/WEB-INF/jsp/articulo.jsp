@@ -170,13 +170,24 @@
 					<br><br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a></p>
 				</div>	
-				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">
+				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;display:none">
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- fin articulo skycraper ebook -->
 					<ins class="adsbygoogle"
 					     style="display:inline-block;width:728px;height:90px"
 					     data-ad-client="ca-pub-3168560600423825"
 					     data-ad-slot="5878414947"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+				<div id="banGoogleFinArticuloMob" class="iframe_wrap" style="width: 64%; margin:0 auto;display:none">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- mobile end article -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:320px;height:100px"
+					     data-ad-client="ca-pub-3168560600423825"
+					     data-ad-slot="7031584944"></ins>
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
@@ -519,6 +530,14 @@
 	    $('.migapan').click(function(e) {
 	    	ga('send', 'event', 'Migas', 'Miga '+$(e.target).text(), $(e.target).text());  
 	    });
+	});
+	
+	jQuery(document).ready(function($){
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
+			$("#banGoogleFinArticuloMob").show();
+		}else{
+			$("#banGoogleFinArticulo").show();
+		}
 	});
 	</script>
 

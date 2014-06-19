@@ -244,5 +244,13 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/rateit.css' 
 	}else{
 		$("#menuInicio").addClass('active');
 	}
+	
+	jQuery(document).ready(function($){
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
+			$("#headerMob").show();
+		}else{
+			$("#header").show();
+		}
+	});
 </script>
 <!-- end: Java Script -->
