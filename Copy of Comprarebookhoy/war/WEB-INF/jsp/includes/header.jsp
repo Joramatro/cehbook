@@ -318,14 +318,14 @@
 		<!-- end: Twitter tags -->		
 	</c:when>	
 	<c:otherwise>
-		<title>Bienvenido a Comprar eBook Hoy - Análisis y opinión sobre los mejores eReaders para comprar online</title> 
-		<meta name="description" content="Analizamos los mejores lectores de ebooks del mercado para que puedas comprar tu ebook reader preferido al mejor precio y online. Los mejores libros electrónicos Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas"/>
+		<title>Bienvenido a Comprar eBook Hoy - Análisis para comprar el mejor ebook online</title> 
+		<meta name="description" content="Analizamos los mejores libros electrónicos para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
 		<meta name="application-name" content="eBook Readers en Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Comprar eBook Hoy - Análisis y opinión sobre los mejores eReaders para comprar online"/>
-		<meta property="og:description" content="Analizamos los mejores lectores de ebooks del mercado para que puedas comprar tu ebook reader preferido al mejor precio y online. Los mejores libros electrónicos Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas"/>
+		<meta property="og:description" content="Analizamos los mejores lectores de ebooks para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
@@ -335,8 +335,8 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@ComprarHoy">
 		<meta name="twitter:creator" content="@ComprarHoy">
-		<meta name="twitter:title" content="eReaders en Comprar eBook Hoy online">
-		<meta name="twitter:description" content="Analizamos los mejores lectores de ebooks del mercado para que puedas comprar tu ebook reader preferido al mejor precio y online. Los mejores libros electrónicos Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas">
+		<meta name="twitter:title" content="eBooks en Comprar eBook Hoy online">
+		<meta name="twitter:description" content="Analizamos los mejores lectores de ebooks para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más">
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comprarebookhoy.com">
 		<!-- end: Twitter tags -->				
@@ -454,27 +454,17 @@
 						
 		</div>
 		<!--end: Container-->			
-	<div id="header" class="iframe_wrap" style="width: 75%; margin:0 auto; display:none">
+	<div id="header" class="iframe_wrap" style="width: 75%; margin:0 auto;">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- superior 1 skyscraper ebook -->
+		<!-- superior1r -->
 		<ins class="adsbygoogle"
-		     style="display:inline-block;width:728px;height:90px"
+		     style="display:block"
 		     data-ad-client="ca-pub-3168560600423825"
-		     data-ad-slot="9111082944"></ins>
+		     data-ad-slot="9103605747"
+		     data-ad-format="auto"></ins>
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-	</div>
-	<div id="headerMob" class="iframe_wrap" style="width: 53%; margin:0 auto; display:none;">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- mobile header -->
-		<ins class="adsbygoogle"
-		     style="display:inline-block;width:320px;height:50px"
-		     data-ad-client="ca-pub-3168560600423825"
-		     data-ad-slot="5554851741"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</div>		
+	</div>	
 	</header>
 	<!--end: Header-->
