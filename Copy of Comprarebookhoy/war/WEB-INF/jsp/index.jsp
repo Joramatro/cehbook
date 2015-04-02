@@ -224,8 +224,14 @@
 	
 	
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		$(".titPortada").css("font-size","38px");
-		$(".descPortada").css("font-size","14px");
+		$(".titPortada").css({
+			   'font-size' : '38px',
+			   'white-space' : 'normal'
+			});
+		$(".descPortada").css({
+			   'font-size' : '14px',
+			   'margin-top' : '29px'
+		});
 	}
 	
 </script>

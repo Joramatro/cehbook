@@ -57,19 +57,7 @@
 				</c:if>
 				<li class="crumbFinal"><span>&nbsp;&gt;&nbsp;</span>${publicacion.titulo}</li>
 			</ul> 
-    		<br>
-	    	<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 870px;">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- interior1r -->
-				<ins class="adsbygoogle"
-				     style="display:block"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="9603133345"
-				     data-ad-format="auto"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>	
+    		<br>	
 			<!-- start: Flexslider -->
 			<div style="max-width: 550px;height: 435px; margin: 0 auto;" class="slider" >
 				<div id="flex1" class="flexslider home">
