@@ -319,7 +319,7 @@
 	</c:when>	
 	<c:otherwise>
 		<title>Bienvenido a Comprar eBook Hoy - Análisis para comprar el mejor ebook online</title> 
-		<meta name="description" content="Analizamos los mejores libros electrónicos para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más"/>
+		<meta name="description" content="Analizamos los mejores libros electrónicos para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más."/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
 		<meta name="application-name" content="eBook Readers en Comprar eBook Hoy" />
