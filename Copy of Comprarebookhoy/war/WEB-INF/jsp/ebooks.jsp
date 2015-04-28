@@ -115,19 +115,6 @@
 
 <script>
 	jQuery(document).ready(function($){
-	    $('.iframe_wrap iframe').iframeTracker({
-	        blurCallback: function(){
-	            // You can know which iframe element is clicked via this._overId
-	        	ga('send', 'event', 'Banner', 'ebooks' , this._overId);
-	        },
-	        overCallback: function(element){
-	            this._overId = $(element).parents('.iframe_wrap').attr('id'); // Saving the iframe wrapper id
-	        },
-	        outCallback: function(element){
-	            this._overId = null; // Reset hover iframe wrapper id
-	        },
-	        _overId: null
-	    });
 	    
 	    function getURLParameter(name) {
 	        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;

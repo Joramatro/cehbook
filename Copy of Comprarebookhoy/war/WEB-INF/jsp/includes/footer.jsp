@@ -201,7 +201,8 @@
 	<!-- end: Copyright -->
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/js/jquery-1.8.2.min.js"></script>
+<script src="/js/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery-migrate-1.2.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/isotope.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
@@ -210,7 +211,6 @@
 <script src="/js/jquery.cslider.min.js"></script>
 <script src="/js/slider.min.js"></script>
 <script src="/js/fancybox.min.js"></script>
-<script src="/js/jquery.iframetracker.js"></script>
 <script defer="defer" src="/js/custom.min.js"></script>
 <script async src="/js/apprise-v2.min.js"></script>
 <script async src="/js/jquery.rateit.min.js"></script>
@@ -246,4 +246,3 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/rateit.css' 
 	}
 	
 </script>
-<!-- end: Java Script -->
