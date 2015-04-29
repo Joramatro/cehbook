@@ -308,7 +308,8 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/js/jquery-1.8.2.js"></script> 
+<script src="/js/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery-migrate-1.2.1.min.js"></script>
 <script src="/js/bootstrap.js"></script>
 <script src="/js/isotope.js"></script>
 <script src="/js/jquery.imagesloaded.js"></script>

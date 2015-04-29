@@ -106,8 +106,8 @@
 					</ul>					
 				</div>				
 				<div class="span10">
-					<!-- Go to www.addthis.com/dashboard to customize your tools -->
-					<div class="addthis_native_toolbox"></div> 
+					<!-- Place this tag where you want the +1 button to render. -->
+					<div class="g-plusone"></div> 
 					
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
@@ -118,12 +118,11 @@
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
 						<br><h2><a id="btnComprar2" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
-					</c:if>					
-					
-					<!-- Go to www.addthis.com/dashboard to customize your tools -->
-					<div class="addthis_native_toolbox"></div> 
-					
-					<br><br>
+					</c:if>									
+
+					<div class="g-plusone" data-annotation="inline"></div>
+					<br>
+					<br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión para aportar más detalles sobre el producto en la sección de <a href="#comments">comentarios</a></p>
 				</div>	
 				<div id="banGoogleFinArticulo" class="iframe_wrap">
@@ -484,8 +483,9 @@
 	});
 	
 	</script>
-	<!-- Go to www.addthis.com/dashboard to customize your tools -->
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5213a7af197d855e" async="async"></script>
-
+	<!-- Place this tag in your head or just before your close body tag. -->
+	<script src="https://apis.google.com/js/platform.js" async defer>
+	  {lang: 'es'}
+	</script>
 </body>
 </html>
