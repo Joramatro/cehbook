@@ -119,10 +119,10 @@
 						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
 					</c:if>					
 
-					<div class="g-plusone" data-annotation="inline"></div>
-					<br>
+					<div class="g-plusone"></div>					
 					<br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a></p>
+					<br>
 				</div>
 				<div id="banGoogleFinArticulo" class="iframe_wrap">
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -398,7 +398,7 @@
 			$("#_image6").css('margin-left', '');
 			$(".imageContextual").css('margin-left', '');
 		}
-		if($('#footer').width() < 1345){
+		if($('#footer').width() < 1300){
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
 		}
@@ -410,7 +410,7 @@
 		}else{
 			$("#banAmazonHorizontal").show();
 		}
-		if($('#footer').width() < 1345){
+		if($('#footer').width() < 1300){
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
 		}else{
@@ -418,10 +418,10 @@
 			$(".slide-caption").show();
 		}
 	});
-	
+	var lastScrollTop = 0;
 	$(window).scroll(function(){
 		if($('#footer').width() >= 855){
-			if($(window).scrollTop() > 995){
+			if($(window).scrollTop() > 975){
 				$("#banAmazonHorizontal").css({position:"fixed",top:"20px"});
 			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180){
 			    	$("#banAmazonHorizontal").hide();
