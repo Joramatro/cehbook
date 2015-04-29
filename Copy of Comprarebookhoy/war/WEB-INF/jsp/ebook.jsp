@@ -425,9 +425,9 @@
 			if($(window).scrollTop() > 975){
 				$("#banAmazonHorizontal").css({position:"fixed",top:"20px"});
 				var st = $(this).scrollTop();
-			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180 && st > lastScrollTop){
+			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 200 && st > lastScrollTop){
 			    	$("#banAmazonHorizontal").hide("fast");
-			    }else if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) < $("#ttpi").offset().top - 180 && st < lastScrollTop){
+			    }else if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) < $("#ttpi").offset().top - 200 && st < lastScrollTop){
 			    	$("#banAmazonHorizontal").show("fast");
 			    }
 			    lastScrollTop = st;

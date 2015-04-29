@@ -423,11 +423,13 @@
 		if($('#footer').width() >= 855){
 			if($(window).scrollTop() > 975){
 				$("#banAmazonHorizontal").css({position:"fixed",top:"20px"});
-			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 180){
-			    	$("#banAmazonHorizontal").hide();
-			    }else{
-			    	$("#banAmazonHorizontal").show();
+				var st = $(this).scrollTop();
+			    if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) > $("#ttpi").offset().top - 200 && st > lastScrollTop){
+			    	$("#banAmazonHorizontal").hide("fast");
+			    }else if($("#banAmazonHorizontal").offset().top + $('#banAmazonHorizontal').outerHeight(true) < $("#ttpi").offset().top - 200 && st < lastScrollTop){
+			    	$("#banAmazonHorizontal").show("fast");
 			    }
+			    lastScrollTop = st;
 			}else{
 				$("#banAmazonHorizontal").css({position:"absolute",top:"995px",left:"54px"});
 			}
