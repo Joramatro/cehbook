@@ -22,7 +22,8 @@
 <noscript>
 Por favor, haz click <a href="${publicacion.script31}">aquí</a> para acceder a la página de compra del producto.
 </noscript>
-
+<c:if test="${not empty publicacion.script32}">
 <img src="${publicacion.script32}" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</c:if>
 </body>
 </html>
