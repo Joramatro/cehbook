@@ -61,7 +61,6 @@
 	  <enabled-rewriter>ElideAttributes</enabled-rewriter>
 	  <enabled-rewriter>RemoveComments</enabled-rewriter>
 	  <enabled-rewriter>RemoveQuotes</enabled-rewriter>
-	  <enabled-rewriter>LeftTrimUrls</enabled-rewriter>
 	</pagespeed>
 	
 </appengine-web-app>
