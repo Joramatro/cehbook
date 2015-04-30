@@ -153,20 +153,18 @@
 							</div>
 						</li>
 					</ul>
-					<!-- end: Follow Us -->
-				
+					<!-- end: Follow Us -->					
+					<h3>Suscríbete! &nbsp; <a href="http://www.comprarebookhoy.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>				
 					<!-- start: Newsletter -->
-					<form id="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=ComprarEbookHoy', 'popupwindow', 'scrollbars=yes,width=550,height=520');">
-						<h3>Suscríbete! &nbsp; <a href="http://www.comprarebookhoy.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>
-						<p>Por favor, déjanos tu email para recibir nuestras novedades.</p>
+					<form id="newsletter" action="//comprarebookhoy.us10.list-manage.com/subscribe/post?u=014584c563f423d9b870e58d0&amp;id=9df4e0a8a5" method="post" id="mc-embedded-subscribe-form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">	
+						<p>Por favor, déjanos tu email para recibir novedades en el mundo de los libros electrónicos y ofertas exclusivas sobre eBooks.</p>
 						<label for="newsletter_input">@:</label>
-						<input style="border: 1px solid #29a9df;" type="text" name="email" id="newsletter_input">
-						<input type="submit" id="btnSuscripcion" value="Enviar">			
-						<input type="hidden" value="ComprarEbookHoy" name="uri"/>
-						<input type="hidden" name="loc" value="es_ES"/>						
+						<input style="border: 1px solid #29a9df" type="text" name="EMAIL" id="mce-EMAIL" placeholder="Introduce tu email">
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    					<div style="position: absolute; left: -5000px;"><input type="text" name="b_014584c563f423d9b870e58d0_9df4e0a8a5" tabindex="-1" value=""></div>
+						<input type="submit" value="Suscribirme" name="Suscribirme" id="mc-embedded-subscribe">												
 					</form>
-					<!-- end: Newsletter -->
-				
+					<!-- end: Newsletter -->				
 				</div>
 				
 			</div>
@@ -246,3 +244,4 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/rateit.css' 
 	}
 	
 </script>
+<script src="//load.sumome.com/" data-sumo-site-id="256f331f10b6cb64d966c8daae4e7425ea2be47ad7e4978e4aae8a20ca20fc9e" async defer></script>
