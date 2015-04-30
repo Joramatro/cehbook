@@ -32,7 +32,7 @@
 
   <sessions-enabled>true</sessions-enabled>
   <async-session-persistence enabled="true" />
-  
+
   	<inbound-services>
 	    <service>xmpp_message</service>
 	    <service>xmpp_presence</service>
@@ -55,8 +55,13 @@
 	</static-files>
 	
 	<pagespeed>
-	  <url-blacklist>http://www.comprarebookhoy.com/sobre</url-blacklist>
-	  <url-blacklist>http://www.comprarebookhoy.com/contacto</url-blacklist>
+	  <enabled-rewriter>CollapseWhitespace</enabled-rewriter>
+	  <enabled-rewriter>InlineJs</enabled-rewriter>
+	  <enabled-rewriter>InlineImages</enabled-rewriter>
+	  <enabled-rewriter>ElideAttributes</enabled-rewriter>
+	  <enabled-rewriter>RemoveComments</enabled-rewriter>
+	  <enabled-rewriter>RemoveQuotes</enabled-rewriter>
+	  <enabled-rewriter>LeftTrimUrls</enabled-rewriter>
 	</pagespeed>
 	
 </appengine-web-app>
