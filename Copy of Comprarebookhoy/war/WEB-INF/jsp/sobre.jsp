@@ -69,36 +69,7 @@
 							Reciéntemente hemos iniciado nuestra propia empresa, dónde pretendemos ofrecer la mejor información y los mejores análisis para conseguir que aciertes con la compra del producto que buscas. Estamos aquí para ayudarte y que decidas con la mejor opinión creada posible, <a title="Contacto" href="/contacto">contacta</a> con nosotros cuando así lo requieras.
 						</p>
 					</div>	
-					<!-- end: History -->
-
-					  
-					<div id="team">
-						
-						<div class="title"><h3>Equipo</h3></div>
-											
-						<div class="row">
-						
-							<div class="span4">
-								<img src="/img/jorge_1.jpg" alt="team member">
-								<div class="team-name">Jorge Amat<span> / Creador de Comprar Hoy</span></div>
-								<p>
-									 Jorge es un joven y polifacético desarrollador de software, especialmente orientado a marketing y desarrollo web. Es el creador de la plataforma web "Comprar Hoy" y dedica una buena parte de su tiempo a mejorarla entre otros proyectos. Además colabora con otras empresas tecnológicas en Dublin donde reside hasta la fecha, en busca de la Guinness perfecta. Como gran apasionado a los gadgets tecnológicos, también escribe artículos y anáisis que pueden ayudarte en la elección de tu producto favorito. 
-								</p>
-								<div class="social_profiles">
-									<ul class="social-bookmarks">
-										<li class="facebook"><a target="_blank" href="https://www.facebook.com/jorge.amat.ro">facebook</a></li>
-										<li class="googleplus"><a target="_blank" href="https://plus.google.com/108657243775074009859/" rel=”me”>googleplus</a></li>
-										<li class="linkedin"><a target="_blank" href="http://ie.linkedin.com/pub/jorge-amat-romero/2b/731/895">linkedin</a></li>
-										<li class="twitter"><a target="_blank" href="https://twitter.com/Jorge_Amat1">twitter</a></li>
-										<li class="pinterest"><a target="_blank" href="http://pinterest.com/jorgeamatro/">pinterest</a></li>
-									</ul>
-								</div>	
-							</div>	
-						
-						</div>
-
-					</div>
-										
+					<!-- end: History -->										
 					
 				</div>	
 				
