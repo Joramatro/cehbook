@@ -68,7 +68,7 @@
 						<c:forEach var="imagen" items="${publicacion.lImages}" varStatus="status">
 						<c:if test="${status.count ne 3}">
 							<li>
-								<img style="width: 420px;height: 420px;" src="${imagen}"  alt="${publicacion.titulo}" />
+								<img style="width: 420px;height: 420px;" src="${imagen}"/>
 							</li>
 						</c:if>
 						</c:forEach>

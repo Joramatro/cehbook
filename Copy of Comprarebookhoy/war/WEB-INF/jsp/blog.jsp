@@ -63,7 +63,7 @@
 					<div class="picture"><a href="/blog/${publicacion.url}" title="${publicacion.titulo}">
 					
 					<c:if test="${!empty publicacion.lImages }">
-					<img pagespeed_no_defer="" src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
+					<img src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
 					</c:if>
 					
 					<div class="image-overlay-link"></div></a>
