@@ -94,7 +94,7 @@
 				<div class="span6">
 				
 					<!-- start: Follow Us -->
-					<h3>Síguenos!</h3>
+					<h3><img src="/img/logo_follow.png" alt="Más">&nbsp;Síguenos!</h3>
 					<ul class="social-grid">
 						<li>
 							<div class="social-item">				
@@ -154,7 +154,7 @@
 						</li>
 					</ul>
 					<!-- end: Follow Us -->					
-					<h3>Suscríbete! &nbsp; <a href="http://www.comprarebookhoy.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>				
+					<h3>Suscríbete!</h3>				
 					<!-- start: Newsletter -->
 					<form id="newsletter" action="//comprarebookhoy.us10.list-manage.com/subscribe/post?u=014584c563f423d9b870e58d0&amp;id=9df4e0a8a5" method="post" id="mc-embedded-subscribe-form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">	
 						<p>Por favor, déjanos tu email para recibir novedades en el mundo de los libros electrónicos y ofertas exclusivas sobre eBooks.</p>
