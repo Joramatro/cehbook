@@ -121,7 +121,7 @@
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar eBook Hoy, su experiencia y valores profesionales"/>
 		<meta property="og:type" content="sobre"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/sobre"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
+		<meta property="og:image" content="/img/img-meta/logoGrande0.jpg"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
@@ -130,7 +130,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Sobre nosotros en Comprar eBook Hoy">
 		<meta name="twitter:description" content="Toda la información sobre los que trabajamos en Comprar eBook Hoy, su experiencia y valores profesionales">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
+		<meta name="twitter:image" content="/img/img-meta/logoGrande0.jpg">
 		<meta name="twitter:domain" content="comprarebookhoy.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarebookhoy.com/sobre"/>	
@@ -146,7 +146,7 @@
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar eBook Hoy"/>
 		<meta property="og:type" content="contacto"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/contacto"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
+		<meta property="og:image" content="/img/img-meta/logoGrande0.jpg"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
@@ -155,7 +155,7 @@
 		<meta name="twitter:creator" content="@Jorge_Amat1">
 		<meta name="twitter:title" content="Contacta con nosotros en Comprar eBook Hoy">
 		<meta name="twitter:description" content="Contacta con los que trabajamos en Comprar eBook Hoy">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
+		<meta name="twitter:image" content="/img/img-meta/logoGrande0.jpg">
 		<meta name="twitter:domain" content="comprarebookhoy.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comprarebookhoy.com/contacto"/>
@@ -328,7 +328,7 @@
 		<meta property="og:description" content="Analizamos los mejores lectores de ebooks para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande1.jpg"/>
+		<meta property="og:image" content="/img/img-meta/logoGrande0.jpg"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
@@ -337,7 +337,7 @@
 		<meta name="twitter:creator" content="@ComprarHoy">
 		<meta name="twitter:title" content="eBooks en Comprar eBook Hoy online">
 		<meta name="twitter:description" content="Analizamos los mejores lectores de ebooks para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande1.jpg">
+		<meta name="twitter:image" content="/img/img-meta/logoGrande0.jpg">
 		<meta name="twitter:domain" content="comprarebookhoy.com">
 		<!-- end: Twitter tags -->				
 		<link rel="canonical" href="http://www.comprarebookhoy.com"/>
@@ -363,7 +363,7 @@
     <!-- start: CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive-v1.min.css" rel="stylesheet">
-    <link href="/css/parallax-sliderv1.css" rel="stylesheet">   
+    <link href="/css/parallax-sliderv0.css" rel="stylesheet">   
 	<%@ include file="/WEB-INF/jsp/includes/styles.jsp"%>
 	<!-- end: CSS -->
 
