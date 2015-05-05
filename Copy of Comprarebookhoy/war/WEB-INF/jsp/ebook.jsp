@@ -159,7 +159,7 @@
 							<div class="picture">
 								<a href="/ebooks/${publicacionRel.url}" title="${publicacionRel.titulo}">
 									<c:if test="${!empty publicacionRel.lImages }">
-									<img style="width: 270px;height: 240px;" src="${publicacionRel.lImages[0]}" alt="${publicacionRel.titulo}"/>
+									<img style="width: 270px;height: 240px;" class="lazy" data-original="${publicacionRel.lImages[0]}" alt="${publicacionRel.titulo}"/>
 									</c:if>
 									<div class="image-overlay-link"></div>
 								</a>
@@ -199,10 +199,10 @@
 									<div class="avatar">
 									<c:choose>
 									<c:when test="${empty comentario.gravatar }">
-									<img src="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&s=50" alt="" width="50" height="50" border="0" /> 
+									<img class="lazy" data-original="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&s=50" alt="" width="50" height="50" border="0" /> 
 									</c:when>
 									<c:otherwise>
-									<img src="${comentario.gravatar}" alt="" width="50" height="50" border="0" />
+									<img class="lazy" data-original="${comentario.gravatar}" alt="" width="50" height="50" border="0" />
 									</c:otherwise>
 									</c:choose>
 									</div>
@@ -248,10 +248,10 @@
 									<div class="avatar">
 									<c:choose>
 									<c:when test="${empty comentario.gravatar }">
-									<img src="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&s=50" alt="" width="50" height="50" border="0" /> 
+									<img class="lazy" data-original="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&s=50" alt="" width="50" height="50" border="0" /> 
 									</c:when>
 									<c:otherwise>
-									<img src="${comentario.gravatar}" alt="" width="50" height="50" border="0" />
+									<img class="lazy" data-original="${comentario.gravatar}" alt="" width="50" height="50" border="0" />
 									</c:otherwise>
 									</c:choose>
 									</div>
