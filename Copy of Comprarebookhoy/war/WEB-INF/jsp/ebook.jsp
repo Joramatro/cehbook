@@ -106,16 +106,11 @@
 					</ul>					
 				</div>				
 				<div class="span10">
-					<!-- Place this tag where you want the +1 button to render. -->
-					<div class="g-plusone"></div> 
-					
-					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
 						<h2><a id="btnComprar1" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡ Comprar Hoy!</a></h2>				
 					</c:if>
-					<c:if test="${publicacion.disponible eq 'N'}">
-						<br>				
-					</c:if>
+					<div class="g-plusone"></div> 														
+					<br><br>
 					<meta id="_articleBody7" content="${fn:replace(publicacion.articulo, "\"", "'")}">
 					${publicacion.articulo}				
 					<br>
