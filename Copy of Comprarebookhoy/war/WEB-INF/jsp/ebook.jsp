@@ -115,9 +115,8 @@
 					${publicacion.articulo}				
 					<br>
 					<div class="g-plusone"></div>					
-					<br>
-					<p style="font-style: italic;">Si te ha gustado el artículo, nos ayudarías mucho dándole al botón de +1 y compartiéndolo en tus redes sociales. También puedes valorarlo y comentar tu opinión en la sección de <a href="#comments">comentarios</a>.</p>
-					<br>
+					<br><br>
+					<p style="font-style: italic;">Si te ha gustado el artículo, <b>nos ayudarías mucho dándole al botón de +1 y compartiéndolo en tus redes sociales</b>. También puedes valorarlo y comentar tu opinión en la sección de <a href="#comments">comentarios</a>.</p>					
 					<c:if test="${publicacion.disponible ne 'N'}">
 						<br><h2><a id="btnComprar2" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
 					</c:if>	
