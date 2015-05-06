@@ -110,8 +110,9 @@
 					</c:if>
 					<div class="g-plusone"></div> 														
 					<br><br>
-					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
-					${publicacion.articulo}				
+					<div id="content" itemprop="articleBody">
+					${publicacion.articulo}
+					</div>				
 					<br>
 					<p style="font-style: italic;">Si te ha gustado el artículo, <b>nos ayudarías mucho dándole al botón de +1 y compartiéndolo en tus redes sociales</b>. También puedes valorarlo y comentar tu opinión en la sección de <a href="#comments">comentarios</a>.</p>
 					<div class="g-plusone"></div>					
