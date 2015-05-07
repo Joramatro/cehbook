@@ -115,7 +115,7 @@
 					${publicacion.articulo}
 					</div>			
 					<br>
-					<p style="font-style: italic;">Si te ha gustado el artículo, <b>nos ayudarías mucho dándole al botón de +1 y compartiéndolo en tus redes sociales</b>. También puedes valorarlo y comentar tu opinión en la sección de <a href="#comments">comentarios</a>.</p>					
+					<p style="font-style: italic;">Si te ha gustado el artículo, <b>nos ayudarías mucho compartiéndolo en tus redes sociales</b>. También puedes valorarlo y comentar tu opinión en la sección de <a href="#comments">comentarios</a>.</p>					
 					<div class="g-plusone"></div>					
 					<br><br>
 					<c:if test="${publicacion.disponible ne 'N'}">
