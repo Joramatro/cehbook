@@ -8,8 +8,6 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<meta name="robots" content="index,all" />
-	<meta name="revisit-after" content="1 days" />
 	<meta name="lang" content="es" />
 		<!-- end: Meta -->
 	
