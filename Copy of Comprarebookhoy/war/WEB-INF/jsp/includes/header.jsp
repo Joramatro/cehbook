@@ -24,7 +24,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo} en análisis y online en Comprar eBook Hoy"/>
 		<meta property="og:description" content="${publicacion.descripcion} en Comprar eBook Hoy"/>
-		<meta property="og:type" content="ebooks"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/ebooks/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
@@ -58,7 +58,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
-		<meta property="og:type" content="articulos"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
@@ -92,7 +92,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Extras y accesorios online para tu ebook reader en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Accede a todos los extras para comprar online accesorios a tu ebook reader como fundas Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas para protegerlo, adaptadores de corriente ó luces de lectura"/>
-		<meta property="og:type" content="extras"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/extras"/>
 		<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
@@ -117,7 +117,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Sobre Nosotros en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Toda la información sobre los que trabajamos en Comprar eBook Hoy, su experiencia y valores profesionales"/>
-		<meta property="og:type" content="sobre"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/sobre"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande0.jpg"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
@@ -142,7 +142,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Contacta con los que trabajamos en Comprar eBook Hoy"/>
-		<meta property="og:type" content="contacto"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/contacto"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande0.jpg"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
@@ -168,7 +168,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="eBooks, precios y análisis de los mejores ereaders de <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Análisis y precios de los mejores eBook readers de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online el libro electrónico más adecuado a tus necesidades"/>
-		<meta property="og:type" content="ebook"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/ebooks"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -201,7 +201,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Análisis de eBooks para comprar tu ebook online y poder comparar precios"/>
 		<meta property="og:description" content="Análisis y precios de los mejores eBook readers en la actualidad para que puedas comprar online tu libro electrónico Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas y comparar"/>
-		<meta property="og:type" content="ebook"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/ebooks"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -235,7 +235,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> sobre eReaders en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog de los mejores eBook readers en la actualidad para que puedas elegir mejor y comprar tu ebook"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -269,7 +269,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos y opinión sobre eReaders en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Opinión y artículos en nuestro blog de los mejores eBook readers en la actualidad para que puedas comprar tu ebook de tinta electrónica Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -324,7 +324,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Comprar eBook Hoy - Análisis y opinión sobre los mejores eReaders para comprar online"/>
 		<meta property="og:description" content="Analizamos los mejores lectores de ebooks para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más"/>
-		<meta property="og:type" content="principal"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comprarebookhoy.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande0.jpg"/>
 		<meta property="og:email" content="hola@comprarebookhoy.com"/>
