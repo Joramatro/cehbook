@@ -20,7 +20,6 @@
 		<meta name="description" content="${publicacion.descripcion} en Comprar eBook Hoy"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo} en análisis y online en Comprar eBook Hoy"/>
 		<meta property="og:description" content="${publicacion.descripcion} en Comprar eBook Hoy"/>
@@ -55,7 +54,6 @@
 		<meta name="description" content="${publicacion.descripcion}"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
@@ -90,7 +88,6 @@
 		<meta name="description" content="Accede a todos los extras para comprar online accesorios a tu ebook reader como fundas Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas para protegerlo, adaptadores de corriente ó luces de lectura"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Extras y accesorios online para tu ebook reader en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Accede a todos los extras para comprar online accesorios a tu ebook reader como fundas Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas para protegerlo, adaptadores de corriente ó luces de lectura"/>
@@ -165,7 +162,6 @@
 		<meta name="description" content="Análisis y precios de los mejores eBook readers de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online el libro electrónico más adecuado a tus necesidades"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="eBooks, precios y análisis de los mejores ereaders de <%= request.getParameter("filtro").replaceAll("-"," ") %> en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Análisis y precios de los mejores eBook readers de <%= request.getParameter("filtro").replaceAll("-"," ") %> para que puedas comprar online el libro electrónico más adecuado a tus necesidades"/>
@@ -199,7 +195,6 @@
 		<meta name="description" content="Análisis y precios de los mejores eBook readers en la actualidad para que puedas comprar online tu libro electrónico Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas y comparar"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Análisis de eBooks para comprar tu ebook online y poder comparar precios"/>
 		<meta property="og:description" content="Análisis y precios de los mejores eBook readers en la actualidad para que puedas comprar online tu libro electrónico Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas y comparar"/>
@@ -234,7 +229,6 @@
 		<meta name="description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog de los mejores eBook readers en la actualidad para que puedas elegir mejor y comprar tu ebook"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> sobre eReaders en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Opinión y artículos de tipo <%= request.getParameter("filtro").replaceAll("-"," ") %> en nuestro blog de los mejores eBook readers en la actualidad para que puedas elegir mejor y comprar tu ebook"/>
@@ -269,7 +263,6 @@
 		<meta name="description" content="Opinión y artículos en nuestro blog de los mejores eBook readers en la actualidad para que puedas comprar tu ebook Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas"/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Artículos y opinión sobre eReaders en Comprar eBook Hoy"/>
 		<meta property="og:description" content="Opinión y artículos en nuestro blog de los mejores eBook readers en la actualidad para que puedas comprar tu ebook de tinta electrónica Kindle, Kobo, Sony, BQ, Barnes & Nobles, Papyre y otras grandes marcas"/>
@@ -324,7 +317,6 @@
 		<meta name="description" content="Analizamos los mejores libros electrónicos para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más."/>
 		<meta name="author" content="Jorge Amat" />
 		<meta name="copyright" content="Comprar eBook Hoy" />
-		<meta name="application-name" content="Comprar eBook Hoy" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Comprar eBook Hoy - Análisis y opinión sobre los mejores eReaders para comprar online"/>
 		<meta property="og:description" content="Analizamos los mejores lectores de ebooks para que puedas comprar tu ebook reader favorito al mejor precio y online, con marcas como el ebook Kindle, Kindle Paperwhite, Kobo, Sony, BQ, Barnes & Nobles, Papyre y muchas más"/>
