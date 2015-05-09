@@ -28,6 +28,7 @@
 		<meta property="og:url" content="http://www.comprarebookhoy.com/ebooks/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar eBook Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -62,6 +63,7 @@
 		<meta property="og:url" content="http://www.comprarebookhoy.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar eBook Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -96,6 +98,7 @@
 		<meta property="og:url" content="http://www.comprarebookhoy.com/extras"/>
 		<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		<meta property="og:site_name" content="Comprar eBook Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -174,6 +177,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar eBook Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -207,6 +211,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar eBook Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -241,6 +246,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar eBook Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -275,6 +281,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Comprar eBook Hoy"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comprarhoy"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
