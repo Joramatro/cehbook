@@ -191,10 +191,8 @@
 						<meta itemprop="itemreviewed" content="${publicacion.titulo}" />
 						<meta itemprop="votes" content="${publicacion.votantes}" />
 						<meta itemprop="count" content="${fn:length(publicacion.lComentarios)}" />
-						<div itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
-							<meta itemprop="average" content="${publicacion.sumaPuntos div publicacion.votantes}" />
-							<meta itemprop="best" content="5" />
-						</div>
+						<meta itemprop="rating" content="${publicacion.sumaPuntos div publicacion.votantes}" />
+
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
 							<c:if test="${comentario.publicado ne 'N'}">
