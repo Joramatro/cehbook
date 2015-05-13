@@ -183,9 +183,9 @@
 		<div class="container">
 		
 			<div class="span12">
-			
+				<jsp:useBean id="date" class="java.util.Date" />
 				<p>
-				&copy;&nbsp;<a target="_blank" href="https://www.google.com/+Comprarebookhoy"><span id="_publisher8" itemscope itemtype="http://schema.org/Organization">
+				&copy; <fmt:formatDate value="${date}" pattern="yyyy" />,&nbsp;<a target="_blank" href="https://www.google.com/+Comprarebookhoy"><span id="_publisher8" itemscope itemtype="http://schema.org/Organization">
 <span itemprop="name">Comprar eBook Hoy</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
