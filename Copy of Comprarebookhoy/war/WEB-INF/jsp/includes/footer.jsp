@@ -185,10 +185,11 @@
 			<div class="span12">
 			
 				<p>
-				&copy; 2014,&nbsp;<a target="_blank" href="https://www.google.com/+Comprarebookhoy"><span id="_publisher8" itemscope itemtype="http://schema.org/Organization">
+				&copy;&nbsp;<a target="_blank" href="https://www.google.com/+Comprarebookhoy"><span id="_publisher8" itemscope itemtype="http://schema.org/Organization">
 <span itemprop="name">Comprar eBook Hoy</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
+				<br><br>
 			</div>
 	
 		</div>
