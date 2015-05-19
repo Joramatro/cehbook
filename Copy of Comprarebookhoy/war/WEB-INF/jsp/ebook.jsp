@@ -398,8 +398,8 @@
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
-			$("#_image6").css('margin-left', '');
-			$(".imageContextual").css('margin-left', '');
+			document.getElementById("_image6").style.marginLeft="0px";
+			document.getElementsByClassName("imageContextual").style.marginLeft="0px";
 		}
 		if($('#footer').width() < 1300){
 			$("#banAmazonEsquina").hide();
@@ -479,6 +479,7 @@
 	    $('.migapan').click(function(e) {
 	    	ga('send', 'event', 'Migas', 'Miga '+$(e.target).text(), $(e.target).text());  
 	    });
+	    		
 	    
 	    <%//if(request.getAttribute("javax.servlet.forward.request_uri").equals("/ebooks/Sony-Reader-PRS-T3")){%>
 	 	// Execute the chosen view
