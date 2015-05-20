@@ -399,7 +399,7 @@
 			$(".imageContextual").css("margin-left", "0px");
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
-			document.getElementById("_image6").style.marginLeft="0px";
+			$("#_image6").css("margin-left", "0px");
 		}
 		if($('#footer').width() < 1300){
 			$("#banAmazonEsquina").hide();
