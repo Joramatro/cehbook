@@ -70,7 +70,7 @@
 						<div class="item-description alt">
 							<h5><a title="${publicacion.titulo}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Extra');" href="/venta/extra/${publicacion.url}">${publicacion.titulo}</a>
 							<p>
-								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
+								${fn:replace(publicacion.resumen, newLineChar, "</p><p>")}
 							</p>
 						</div>
 						<div class="post-meta"><span><i class="mini-ico-calendar"></i><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span><span style=""></div>

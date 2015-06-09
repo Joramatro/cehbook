@@ -169,7 +169,7 @@
 								<div class="rateit" data-rateit-value="${publicacionRel.sumaPuntos div publicacionRel.votantes}" data-rateit-ispreset="true" data-rateit-readonly="true" title="<fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${publicacionRel.sumaPuntos div publicacionRel.votantes}" /> / 5"></div>
 								</c:if>
 								<p>
-									${fn:replace(publicacionRel.descripcion, newLineChar, "<p/><p>")}
+									${fn:replace(publicacionRel.descripcion, newLineChar, "</p><p>")}
 								</p>
 							</div>					
         				</div>

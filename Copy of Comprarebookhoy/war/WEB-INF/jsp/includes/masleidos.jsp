@@ -27,7 +27,7 @@
 								<div class="rateit" data-rateit-value="${publicacionMVE.sumaPuntos div publicacionMVE.votantes}" data-rateit-ispreset="true" data-rateit-readonly="true" title="<fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${publicacionMVE.sumaPuntos div publicacionMVE.votantes}" /> / 5"></div>
 								</c:if>
 								<p>
-									${fn:replace(publicacionMVE.descripcion, newLineChar, "<p/><p>")}
+									${fn:replace(publicacionMVE.descripcion, newLineChar, "</p><p>")}
 								</p>
 								<p><i title="Visto" style="margin-top: -17px;" class="ico-eye-open"></i>  ${publicacionMVE.numVisitas} veces</p>
 									<%--
@@ -106,7 +106,7 @@
 								<div class="rateit" data-rateit-value="${publicacionMVA.sumaPuntos div publicacionMVA.votantes}" data-rateit-ispreset="true" data-rateit-readonly="true" title="<fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${publicacionMVA.sumaPuntos div publicacionMVA.votantes}" /> / 5"></div>
 								</c:if>
 								<p>
-									${fn:replace(publicacionMVA.descripcion, newLineChar, "<p/><p>")}
+									${fn:replace(publicacionMVA.descripcion, newLineChar, "</p><p>")}
 								</p>
 								<p><i title="Visto" style="margin-top: -17px;" class="ico-eye-open"></i>  ${publicacionMVA.numVisitas} veces</p>
 							</div>					
