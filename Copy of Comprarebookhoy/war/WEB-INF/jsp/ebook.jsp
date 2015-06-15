@@ -108,7 +108,7 @@
 				</div>				
 				<div class="span10">
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<h2><a id="btnComprar1" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡ Comprar Hoy!</a></h2>				
+						<h2><a id="btnComprar1" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Hoy');" class="button color launch" target="_blank">¡Comprar Hoy!</a></h2>				
 					</c:if>
 					<div class="g-plusone"></div> 														
 					<br><br>
@@ -120,7 +120,7 @@
 					<div class="g-plusone"></div>					
 					<br><br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a id="btnComprar2" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡ Comprar Hoy!</a></h2>
+						<br><h2><a id="btnComprar2" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo hoy al mejor precio');" class="button color launch">¡Comprar Hoy!</a></h2>
 					</c:if>	
 				</div>	
 				<div id="banGoogleFinArticulo" class="iframe_wrap">
