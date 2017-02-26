@@ -73,7 +73,6 @@
 								${fn:replace(publicacion.resumen, newLineChar, "</p><p>")}
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span><span style=""></div>
 					</div>	
 				</div>
 				</c:forEach>

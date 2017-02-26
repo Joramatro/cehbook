@@ -54,13 +54,4 @@
 	    <include path="/**.txt" expiration="40d" />
 	</static-files>
 	
-	<pagespeed>
-	  <enabled-rewriter>CollapseWhitespace</enabled-rewriter>
-	  <enabled-rewriter>InlineJs</enabled-rewriter>
-	  <enabled-rewriter>InlineImages</enabled-rewriter>
-	  <enabled-rewriter>ElideAttributes</enabled-rewriter>
-	  <enabled-rewriter>RemoveComments</enabled-rewriter>
-	  <enabled-rewriter>LeftTrimUrls</enabled-rewriter>
-	</pagespeed>
-	
 </appengine-web-app>
